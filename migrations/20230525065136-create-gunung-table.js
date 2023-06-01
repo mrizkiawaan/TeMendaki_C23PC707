@@ -3,12 +3,11 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.createTable('gunung', {
+    await queryInterface.createTable('pendakian_gunung', {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
-        autoIncrement: true,
-        allowNull: false
+        allowNull: false,
       },
       name: {
         type: Sequelize.STRING,
@@ -32,20 +31,31 @@ module.exports = {
       },
       price: {
         type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      stock_ticket: {
+        type: Sequelize.INTEGER,
         allowNull: false
       },
-      createdAt: {
-        type: Sequelize.DATE,
+      avaibility: {
+        type: Sequelize.STRING,
         allowNull: false
       },
-      updatedAt: {
-        type: Sequelize.DATE,
+      duration: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      rating: {
+        type: Sequelize.STRING,
         allowNull: false
       }
+    },{
+      createdAt: false,
+      updatedAt: false
     })
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('gunung');
+    await queryInterface.dropTable('pendakian_gunung');
   }
 };

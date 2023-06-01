@@ -12,9 +12,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "fastest-validator": "^1.17.0",
-    "firebase": "^9.22.1",
+    "firebase": "^8.6.8",
     "morgan": "~1.9.1",
     "mysql2": "^3.3.2",
+    "nanoid": "^3.3.6",
     "sequelize": "^6.31.1",
     "sequelize-cli": "^6.6.0"
   }

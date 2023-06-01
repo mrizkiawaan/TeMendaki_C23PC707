@@ -1,7 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
     const Users = sequelize.define('Users',{
         id: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             primaryKey: true,
             autoIncrement: false,
             allowNull: false
@@ -18,8 +18,14 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false
           },
+          confirm_password:{
+            type: DataTypes.STRING,
+            allowNull: false
+          }
     },{
-      tableName: 'users'
+      tableName: 'users',
+      createdAt: false,
+      updatedAt: false
     });
 
     return Users;

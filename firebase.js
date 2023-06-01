@@ -1,5 +1,4 @@
-const firebase = require("firebase/app");
-require('firebase/auth')
+const firebase = require('firebase');
 
 const firebaseConfig = {
   apiKey: "AIzaSyDD45dIH6elZvqj3Koqwj915T_Jzd8KcSc",
@@ -12,9 +11,5 @@ const firebaseConfig = {
 }
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-
-
-// Initialize Firebase Authentication and get a reference to the service
 const auth = firebase.auth();
-
-module.exports = {auth}
+module.exports = auth;
