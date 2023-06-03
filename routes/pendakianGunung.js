@@ -2,9 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Validator = require('fastest-validator');
 
-const {PendakianGunung,DetailPendakian} = require('../models');
-
-const v = new Validator();
+const {PendakianGunung} = require('../models');
 
 //menampilkan semua data
 router.get('/', async(req,res) => {
@@ -27,12 +25,12 @@ router.get('/:id', async(req, res) => {
 
 //menampilkan data berdasarkan nama pendakian
 router.get('/search/:name', async (req, res) => {
-    const searchName = req.params.name;
+    const name = req.params.name;
 
     try {
         const gunung = await PendakianGunung.findAll({
             where: {
-                name: searchName
+                name: name
             }
         });
         res.json(gunung)
