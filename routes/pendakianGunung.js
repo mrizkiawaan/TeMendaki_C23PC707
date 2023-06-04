@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var Validator = require('fastest-validator');
+const { sequelize } = require('../models');
 
 const {PendakianGunung} = require('../models');
 
@@ -24,13 +25,13 @@ router.get('/:id', async(req, res) => {
 })
 
 //menampilkan data berdasarkan nama pendakian
-router.get('/search/:name', async (req, res) => {
-    const name = req.params.name;
+router.get('/search/name', async (req, res) => {
+    const nama = req.query.name;
 
     try {
-        const gunung = await PendakianGunung.findAll({
+        const gunung = await PendakianGunung.findOne({
             where: {
-                name: name
+                name: nama
             }
         });
         res.json(gunung)
@@ -40,13 +41,13 @@ router.get('/search/:name', async (req, res) => {
 })
 
 //menampilkan data berdasarkan kota
-router.get('/search/city/:city', async (req, res) => {
-    const searchCity = req.params.city;
+router.get('/search/city', async (req, res) => {
+    const city = req.query.city;
 
     try {
         const gunung = await PendakianGunung.findAll({
             where: {
-                city: searchCity
+                city: city
             }
         });
         res.json(gunung)
@@ -56,13 +57,13 @@ router.get('/search/city/:city', async (req, res) => {
 })
 
 //menampilkan data berdasarkan provinsi
-router.get('/search/province/:province', async (req, res) => {
-    const searchProvince = req.params.province;
+router.get('/search/province', async (req, res) => {
+    const province = req.query.province;
 
     try {
         const gunung = await PendakianGunung.findAll({
             where: {
-                province: searchProvince
+                province: province
             }
         });
         res.json(gunung)
