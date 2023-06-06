@@ -10,8 +10,7 @@ const v = new Validator();
 
 //add data user
 router.post('/register', async (req,res) => {
-  const email = req.body.email;
-  const password = req.body.password;
+  const {name,email,province,experience_level,password,confirm_password} = req.body;
 
   const id = nanoid(16);
 
@@ -19,6 +18,8 @@ router.post('/register', async (req,res) => {
     const schema = {
       name: 'string',
       email: 'string',
+      province: 'string',
+      experience_level: 'string',
       password: 'string',
       confirm_password: 'string'
     }
@@ -36,7 +37,7 @@ router.post('/register', async (req,res) => {
     const user = await Users.create(userData)
     res.json({
       message: 'Register Successfully',
-      data: userData
+      data: user
     });
   }).catch((error) => {
     console.log(error)
@@ -46,13 +47,29 @@ router.post('/register', async (req,res) => {
 
 // Login
 router.post('/login', async (req, res) => {
-  const email = req.body.email;
-  const password = req.body.password;
+  const {email, password} = req.body;
 
   auth.signInWithEmailAndPassword(email, password)
     .then(async () => {
+      const schema = {
+        email: 'string',
+        password: 'string',
+      }
+  
+      const validate = v.validate(req.body, schema);
+      if(validate.length){
+        return res.status(400).json(validate);
+      }
+
+      const user = await Users.findOne({
+        attributes: ['email','password'],
+        where: {
+          email: email
+        }
+      })
       res.json({
-        message: 'Login Succesfully'
+        message: 'Login Succesfully',
+        data: user
       });
     })
     .catch((error) => {
