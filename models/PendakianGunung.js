@@ -1,11 +1,11 @@
 module.exports = (sequelize, DataTypes) => {
     const PendakianGunung = sequelize.define('PendakianGunung',{
-      id: {
+      id_climb: {
         type: DataTypes.INTEGER,
         primaryKey: true,
-        allowNull: false
+        allowNull: false,
       },
-      name: {
+      climb_name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
@@ -33,11 +33,11 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
-      stock_ticket: {
+      stock_tickets: {
         type: DataTypes.INTEGER,
         allowNull: false
       },
-      avaibility: {
+      sold_tickets: {
         type: DataTypes.STRING,
         allowNull: false
       },
@@ -50,7 +50,7 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false
       }
     },{
-      tableName: 'pendakian_gunung',
+      tableName: 'tb_pendakian_gunung',
       createdAt: false,
       updatedAt: false
     });

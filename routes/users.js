@@ -10,13 +10,13 @@ const v = new Validator();
 
 //add data user
 router.post('/register', async (req,res) => {
-  const {name,email,province,experience_level,password,confirm_password} = req.body;
+  const {username,email,province,experience_level,password,confirm_password} = req.body;
 
-  const id = nanoid(16);
+  const id_user = nanoid(16);
 
   auth.createUserWithEmailAndPassword(email, password).then(async () => {
     const schema = {
-      name: 'string',
+      username: 'string',
       email: 'string',
       province: 'string',
       experience_level: 'string',
@@ -30,7 +30,7 @@ router.post('/register', async (req,res) => {
     }
 
     const userData = {
-      id: id,
+      id_user: id_user,
       ...req.body
     };
   
@@ -92,20 +92,20 @@ router.get('/', async (req, res) => {
 });
 
 //get user by id
-router.get('/:id', async (req, res) => {
-  const id = req.params.id;
-  const user = await Users.findByPk(id);
+router.get('/:id_user', async (req, res) => {
+  const id_user = req.params.id_user;
+  const user = await Users.findByPk(id_user);
 
   res.json(user)
 })
 
 //get user by name
-router.get('/search/:name', async (req, res) => {
-  const name = req.params.name;
+router.get('/search/:username', async (req, res) => {
+  const name = req.params.username;
   
   const user = await Users.findAll({
     where: {
-      name: name
+      username: name
     }
   })
 

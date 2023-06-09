@@ -3,13 +3,13 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.createTable('pendakian_gunung', {
-      id: {
+    await queryInterface.createTable('tb_pendakian_gunung', {
+      id_climb: {
         type: Sequelize.INTEGER,
         primaryKey: true,
         allowNull: false,
       },
-      name: {
+      climb_name: {
         type: Sequelize.STRING,
         allowNull: false,
       },
@@ -37,11 +37,11 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      stock_ticket: {
+      stock_tickets: {
         type: Sequelize.INTEGER,
         allowNull: false
       },
-      avaibility: {
+      sold_tickets: {
         type: Sequelize.STRING,
         allowNull: false
       },
@@ -60,6 +60,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('pendakian_gunung');
+    await queryInterface.dropTable('tb_pendakian_gunung');
   }
 };
