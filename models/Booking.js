@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const Booking = sequelize.define('tb_booking',{
+    const Booking = sequelize.define('Booking',{
       id_booking: {
         type: DataTypes.STRING,
         primaryKey: true,
@@ -19,14 +19,18 @@ module.exports = (sequelize, DataTypes) => {
       },
       climber_name: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: false
+      },
+      total_pay: {
+        type: DataTypes.INTEGER,
+        allowNull: false
       },
       payment_method: {
         type: DataTypes.ENUM,
         values: ["Bank BCA","Bank BNI","Bank BNI Syariah","Bank Mandiri"]
       },
-      total_pay: {
-        type: DataTypes.INTEGER,
+      status: {
+        type: DataTypes.BOOLEAN,
         allowNull: false
       },
       id_user: {
@@ -60,18 +64,18 @@ module.exports = (sequelize, DataTypes) => {
         onDelete: 'SET NULL',
       },
     },{
-      tableName: 'tb_booking',
-      createdAt: false,
-      updatedAt: false
+        tableName: 'tb_booking',
+        createdAt: false,
+        updatedAt: false
     });
 
     Booking.associate = (models) => {
-      Booking.belongsTo(models.Users, { foreignKey: 'id_user' });
-      Booking.hasMany(models.Users, {foreignKey: 'id_user'})
-      Booking.belongsTo(models.PendakianGunung, { foreignKey: 'id_climb' });
-      Booking.hasOne(models.PendakianGunung, { foreignKey: 'id_climb' });
-      Booking.belongsTo(models.Customers, { foreignKey: 'id_customer' });
-      Booking.hasMany(models.Customers, { foreignKey: 'id_customer' });
+        Booking.belongsTo(models.Users, { foreignKey: 'id_user' });
+        Booking.hasOne(models.Users, {foreignKey: 'id_user'})
+        Booking.belongsTo(models.PendakianGunung, { foreignKey: 'id_climb' });
+        Booking.hasOne(models.PendakianGunung, { foreignKey: 'id_climb' });
+        Booking.belongsTo(models.Customer, { foreignKey: 'id_customer' });
+        Booking.hasMany(models.Customer, { foreignKey: 'id_customer' });
     };
 
     return Booking;

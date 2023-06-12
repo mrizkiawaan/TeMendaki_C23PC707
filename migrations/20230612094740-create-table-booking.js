@@ -23,14 +23,18 @@ module.exports = {
       },
       climber_name: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: false
+      },
+      total_pay: {
+        type: Sequelize.INTEGER,
+        allowNull: false
       },
       payment_method: {
         type: Sequelize.ENUM,
         values: ["Bank BCA","Bank BNI","Bank BNI Syariah","Bank Mandiri"]
       },
-      total_pay: {
-        type: Sequelize.INTEGER,
+      status: {
+        type: Sequelize.BOOLEAN,
         allowNull: false
       },
       id_user: {

@@ -7,7 +7,7 @@ module.exports = {
       id_customer: {
         type: Sequelize.STRING,
         primaryKey: true,
-        allowNull: false,
+        allowNull: false
       },
       customer_name: {
         type: Sequelize.STRING,

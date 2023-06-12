@@ -3,7 +3,7 @@ var router = express.Router();
 var Validator = require('fastest-validator');
 const { nanoid } = require('nanoid');
 
-const {PendakianGunung,Customers,Booking,Users} = require('../models');
+const {PendakianGunung,Customer,Booking,Users} = require('../models');
 
 const v = new Validator();
 
@@ -71,64 +71,76 @@ router.get('/search/province', async (req, res) => {
 })
 
 //booking
-
-/*
-router.post('/:id_climb/booking/:id_user', async (req, res) => {
+router.post('/:id_climb/booking/:id_user', async (req,res) => {
 
     try {
-        const id_customer = nanoid(16);
         const id_booking = nanoid(16);
+        const id_customer = nanoid(16);
 
-        const {customer_name,quantity,climbing_date,climber_name,payment_method} = req.body;
-        const {id_climb,id_user} = req.params;
+        const {id_climb, id_user} = req.params;
+        const {quantity,climbing_date,customer_name,climber_name,total_pay,payment_method} = req.body;
 
+        const status = false;
         const gunung = await PendakianGunung.findByPk(id_climb);
         const user = await Users.findByPk(id_user);
 
+        //add data customer
         const schemaCustomer = {
             customer_name: 'string'
         }
 
         const validateCustomer = v.validate(req.body, schemaCustomer);
         if(validateCustomer.length){
-            return res.status(400).json(validateCustomer);
+        return res.status(400).json(validateCustomer);
         }
 
-        const dataCustomer = {
-            id_customer,
-            customer_name
-        }
+        const customerData = {
+            id_customer:id_customer,
+            ...req.body
+        };
+    
+        const customer = await Customer.create(customerData);
 
-        const customer = await Customers.create(dataCustomer);
+        //add data booking
 
-        //data booking
         const schemaBooking = {
             quantity: 'number',
             climbing_date: 'string',
             climber_name: 'string',
-            payment_method: 'string',
+            payment_method: 'string'
         }
 
         const validateBooking = v.validate(req.body, schemaBooking);
         if(validateBooking.length){
-            return res.status(400).json(validateBooking);
+        return res.status(400).json(validateBooking);
         }
 
-        const dataBooking = {
-            id_booking,
-            ...req.body,
+        const bookingData = {
+            id_booking: id_booking,
+            quantity,
+            climbing_date,
+            customer_name: customer.customer_name,
+            climber_name,
             total_pay: quantity * gunung.price,
-            ...req.params,
+            payment_method,
+            status,
+            id_user,
+            id_climb: parseInt(id_climb),
             id_customer
-        }
+        };
 
-        const booking = await Booking.create(dataBooking);
+        const booking = await Booking.create(bookingData);
 
-        res.json(customer,booking);
+        console.log(booking)
+
+        res.json({
+            message: 'success',
+            data: {customer,booking}
+        })
     } catch (error) {
-        console.log("errornya adalah = ",error)
+        console.log(error)
     }
 })
-*/
+
 
 module.exports = router;
