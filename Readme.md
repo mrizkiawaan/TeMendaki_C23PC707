@@ -18,7 +18,7 @@ Team member :
 ## Executive Summary/Abstract:
 TeMendaki is a type of open trip platform that enables individuals to join group tours with strangers rather than traveling alone on a hiking trip. TeMendaki provides a range of features to users, including the ability to search for and book open trips, join existing tours, and also articles to educate the newbie hikers before going hiking.
 
-As open trip services increase, the risk of scam also increases. Nowadays, everyone can easily build an open trip service instagram account with a very low price to bait the newbie hikers. This scam could lead to fatal risks. Take a look back at the viral news about the Rinjani Open Trip scam in January 2022. This is not only risking the hikers' lives, but also tarnishing Indonesia tourism image.
+As open trip services increase, the risk of scam also increases. Nowadays, everyone can easily build an open trip service instagram account with a very low price to bait the newbie hikers. This scam could lead to fatal risks. Take a look back at the viral news about the Rinjani Open Trip scam in January 2022. This is not only risking the hikers' lives, but also tarnishing Indonesia tourism image..
 
 TeMendaki plans to tackle this main issue by facilitating the curated local tour guide to organize a proper open trip. End users (especially newbie hikers) could be benefited with the trusted hiking open trip, because TeMendaki already ensured the trip itinerary is well planned and executed properly with a standard operating procedure.
 
