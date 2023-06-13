@@ -25,7 +25,7 @@ module.exports = {
       },
       experience_level: {
         type: Sequelize.ENUM,
-        values: ["1","2","3"]
+        values: ["Pemula","Menengah","Mahir"]
       },
       password: {
         type: Sequelize.STRING,

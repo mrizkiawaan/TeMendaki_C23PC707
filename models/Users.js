@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       experience_level: {
         type: DataTypes.ENUM,
-        values: ["1","2","3"]
+        values: ["Pemula","Menengah","Mahir"]
       },
       password: {
         type: DataTypes.STRING,
