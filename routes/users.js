@@ -62,7 +62,7 @@ router.post('/login', async (req, res) => {
       }
 
       const user = await Users.findOne({
-        attributes: ['email','password'],
+        attributes: ['id_user','username','email','password'],
         where: {
           email: email
         }
@@ -84,6 +84,7 @@ router.post('/login', async (req, res) => {
     });
 });
 
+
 //get all users
 router.get('/', async (req, res) => {
   const user = await Users.findAll();
@@ -100,12 +101,12 @@ router.get('/:id_user', async (req, res) => {
 })
 
 //get user by name
-router.get('/search/:username', async (req, res) => {
-  const name = req.params.username;
+router.get('/search/username', async (req, res) => {
+  const username = req.query.username;
   
-  const user = await Users.findAll({
+  const user = await Users.findOne({
     where: {
-      username: name
+      username: username
     }
   })
 
