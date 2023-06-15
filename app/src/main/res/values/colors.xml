@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Neutral -->
+    <color name="neutral_90">#4E4D50</color>
+
+    <!-- Primary -->
+    <color name="primary_main">#3B75FF</color>
+    <color name="primary_surface">#D8E3FF</color>
+    <color name="primary_border">#9DBAFF</color>
+    <color name="primary_hover">#3162D4</color>
+    <color name="primary_pressed">#1E3B80</color>
+    <color name="primary_focus">#333B75FF</color>
+
+    <!-- Info -->
+    <color name="info_main">#2DB2FC</color>
+    <color name="info_surface">#D5EFFE</color>
+    <color name="info_border">#D5EFFE</color>
+    <color name="info_hover">#2594D2</color>
+    <color name="info_pressed">#16597E</color>
+
+    <!-- Warning -->
+    <color name="warning_main">#ECC32E</color>
+    <color name="warning_surface">#FBF3D5</color>
+    <color name="warning_border">#F9EBB9</color>
+    <color name="warning_hover">#C5A226</color>
+    <color name="warning_pressed">#776217</color>
+
+    <!-- Danger -->
+    <color name="danger_main">#2DB2FC</color>
+    <color name="danger_surface">#D5EFFE</color>
+    <color name="danger_border">#D5EFFE</color>
+    <color name="danger_hover">#2594D2</color>
+    <color name="danger_pressed">#16597E</color>
+
+    <!-- Success -->
+    <color name="success_main">#0BF190</color>
+    <color name="success_surface">#CEFCE9</color>
+    <color name="success_border">#ADFADA</color>
+    <color name="success_hover">#09C878</color>
+    <color name="success_pressed">#09C878</color>
+
+</resources>
