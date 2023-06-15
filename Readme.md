@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloud Computing Path
 
 Creating **RESTful APIs** and deploying to [Google Cloud Platform](https://cloud.google.com) by using [Google App Engine](https://cloud.google.com/appengine) for communication between **Machine Learning Recommendation System Model** and **Mobile Development**. Using [Cloud Function](https://cloud.google.com/functions) and Creating database in [Cloud SQL](https://cloud.google.com/sql).
@@ -262,3 +263,5 @@ In this section there is a list of all climbing destinations that can be filtere
 ```
 
 <br>
+=======
+>>>>>>> 44898af (add data)
