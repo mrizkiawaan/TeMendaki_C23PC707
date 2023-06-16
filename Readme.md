@@ -1,6 +1,6 @@
 # Cloud Computing Path
 
-Creating **RESTful APIs** and deploying to [Google Cloud Platform](https://cloud.google.com) by using [Google App Engine](https://cloud.google.com/appengine) for communication between **Machine Learning Recommendation System Model** and **Mobile Development**. Using [Cloud Compute Engine](https://cloud.google.com/compute) and Creating database in [Cloud SQL](https://cloud.google.com/sql). Using Google Cloud Firebase [Cloud Compute Engine](https://firebase.google.com) for the authentication system. 
+Creating **RESTful APIs** and deploying to [Google Cloud Platform](https://cloud.google.com) by using [Google App Engine](https://cloud.google.com/appengine) for communication between **Machine Learning Recommendation System Model** and **Mobile Development**. Using [Cloud Compute Engine](https://cloud.google.com/compute) and Creating database in [Cloud SQL](https://cloud.google.com/sql). Using [Google Cloud Firebase](https://firebase.google.com) for the authentication system. 
 
 Region: asia-southeast2
 Zone: Jakarta
