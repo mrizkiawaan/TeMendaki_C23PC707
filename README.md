@@ -27,6 +27,6 @@ Moving on to the Implementation to Apps phase, we utilized [Android Studio](http
 By following these processes, we were able to develop the application with professionalism and attention to detail, providing users with a seamless and intuitive experience.
 
 ## App Preview
-Here is a preview of the application's user interface (UI).
+Here is a preview of the application's user interface (UI):
 
-(App Preview)
+![TeMendaki App Preview](/TeMendaki-App-Preview.png "TeMendaki App Preview")
