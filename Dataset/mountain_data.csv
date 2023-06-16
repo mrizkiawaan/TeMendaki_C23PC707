@@ -1,0 +1,252 @@
+gunungID,nama_gunung,ketinggian,kota,provinsi_gunung,tingkat_kesulitan
+1,Arjuno,3339,Malang,Jawa Timur,Sulit
+2,Argopuro,3088,Bondowoso,Jawa Timur,Sulit
+3,Bromo,2392,Probolinggo,Jawa Timur,Sedang
+4,Butak,2868,Tulungagung,Jawa Timur,Sulit
+5,Cemoro Sewu,3339,Lumajang,Jawa Timur,Sulit
+6,Egon,1703,Kediri,Jawa Timur,Mudah
+7,Ijen,2799,Banyuwangi,Jawa Timur,Sulit
+8,Kawi,2551,Malang,Jawa Timur,Sulit
+9,Kelud,1731,Kediri,Jawa Timur,Mudah
+10,Kembang,2120,Lumajang,Jawa Timur,Sedang
+11,Kukusan,1815,Lumajang,Jawa Timur,Mudah
+12,Lambu,2327,Malang,Jawa Timur,Sedang
+13,Lawu,3265,Magetan,Jawa Timur,Sulit
+14,Liman,2253,Malang,Jawa Timur,Sedang
+15,Mahameru,3676,Malang,Jawa Timur,Sulit
+16,Panderman,2045,Malang,Jawa Timur,Sedang
+17,Penanggungan,1653,Pasuruan,Jawa Timur,Mudah
+18,Raung,3344,Bondowoso,Jawa Timur,Sulit
+19,Semeru,3676,Malang,Jawa Timur,Sulit
+20,Welirang,3156,Malang,Jawa Timur,Sulit
+21,Andong,1726,Boyolali,Jawa Tengah,Mudah
+22,Argapura,2025,Purworejo,Jawa Tengah,Sedang
+23,Cleft,1245,Salatiga,Jawa Tengah,Mudah
+24,Gajah Mungkur,1877,Karanganyar,Jawa Tengah,Mudah
+25,Gemawang,1717,Purwodadi,Jawa Tengah,Mudah
+26,Genuk,650,Rembang,Jawa Tengah,Mudah
+27,Gondosuli,1603,Boyolali,Jawa Tengah,Mudah
+28,Kendalisodo,1723,Temanggung,Jawa Tengah,Mudah
+29,Lawu,3265,Karanganyar,Jawa Tengah,Sulit
+30,Merbabu,3145,Boyolali,Jawa Tengah,Sulit
+31,Merpati,1078,Kebumen,Jawa Tengah,Mudah
+32,Muria,1602,Kudus,Jawa Tengah,Mudah
+33,Pangonan,1504,Brebes,Jawa Tengah,Mudah
+34,Prahu,2564,Dieng,Jawa Tengah,Sulit
+35,Purba,2536,Banjarnegara,Jawa Tengah,Sulit
+36,Slamet,3428,Purbalingga,Jawa Tengah,Sulit
+37,Sindoro,3153,Tempuran,Jawa Tengah,Sulit
+38,Sumbing,3371,Magelang,Jawa Tengah,Sulit
+39,Telomoyo,1895,Salatiga,Jawa Tengah,Mudah
+40,Ungaran,2050,Semarang,Jawa Tengah,Sedang
+41,Bismo,1200, Wonosobo,Jawa Tengah,Mudah
+42,Biru,1307, Semarang,Jawa Tengah,Mudah
+43,Butak,2868, Magelang,Jawa Tengah,Sulit
+44,Cakrabuana,1091, Banyumas,Jawa Tengah,Mudah
+45,Cakrakencana,1236, Cilacap,Jawa Tengah,Mudah
+46,Ciremai,3078, Kuningan,Jawa Tengah,Sulit
+47,Dieng,2565, Banjarnegara,Jawa Tengah,Sulit
+48,Gede,2958, Cilacap,Jawa Barat,Sulit
+49,Geulis,1969, Brebes,Jawa Tengah,Mudah
+50,Genuk Sakti,1732, Boyolali,Jawa Tengah,Mudah
+51,Gombong,1493, Kebumen,Jawa Tengah,Mudah
+52,Ijo,1628, Wonosobo,Jawa Tengah,Mudah
+53,Kapur,1387, Brebes,Jawa Tengah,Mudah
+54,Kemulan,1617, Purworejo,Jawa Tengah,Mudah
+55,Kumbang,2530, Purbalingga,Jawa Tengah,Sulit
+56,Kukusan,2285, Wonosobo,Jawa Tengah,Sedang
+57,Liman,1350, Cilacap,Jawa Tengah,Mudah
+58,Manggal,2079, Kebumen,Jawa Tengah,Sedang
+59,Merbabu Via Selo,3145, Boyolali,Jawa Tengah,Sulit
+60,Pandan,1208, Batang,Jawa Tengah,Mudah
+61,Pangrango,3019, Cilacap,Jawa Tengah,Sulit
+62,Parang,1009, Sleman,Jawa Tengah,Mudah
+63,Prau Via Dieng,2565, Wonosobo,Jawa Tengah,Sulit
+64,Purwo,1658, Cilacap,DI Yogyakarta,Mudah
+65,Sabil,1952, Wonosobo,Jawa Tengah,Mudah
+66,Salak,2211, Brebes,Jawa Tengah,Sedang
+67,Slamet Via Guwo,3428, Banyumas,Jawa Tengah,Sulit
+68,Sumbing Via Garung,3371, Magelang,Jawa Tengah,Sulit
+69,Sundoro Via Cepit,3153, Temanggung,Jawa Tengah,Sulit
+70,Talang,1815, Temangg,Jawa Tengah,Mudah
+71,Cikuray,2821, Garut,Jawa Barat,Sulit
+72,Ciremai,3078, Kuningan,Jawa Barat,Sulit
+73,Galunggung,2167, Tasikmalaya,Jawa Barat,Sedang
+74,Guntur,2249, Garut,Jawa Barat,Sedang
+75,Haruman,2215, Purwakarta,Jawa Barat,Sedang
+76,Karacak,1300, Cianjur,Jawa Barat,Mudah
+77,Karang,1787, Bogor,Jawa Barat,Mudah
+78,Karanggantung,1380, Cianjur,Jawa Barat,Mudah
+79,Kendang,1470, Bogor,Jawa Barat,Mudah
+80,Manglayang,1811,Kota Bandung,Jawa Barat,Mudah
+81,Masigit,1181, Cianjur,Jawa Barat,Mudah
+82,Papandayan,2665, Garut,Jawa Barat,Sulit
+83,Patuha,2434, Bandung,Jawa Barat,Sedang
+84,Payung,1327, Cianjur,Jawa Barat,Mudah
+85,Putri,1470, Cianjur,Jawa Barat,Mudah
+86,Sanggabuana,1496, Bandung,Jawa Barat,Mudah
+87,Sanggancan,1270, Bandung,Jawa Barat,Mudah
+88,Sawal,2171, Cianjur,Jawa Barat,Sedang
+89,Sindulang,1462, Bandung,Jawa Barat,Mudah
+90,Talaga,1200, Bandung,Jawa Barat,Mudah
+91,Tilu,2099, Sukabumi,Jawa Barat,Sedang
+92,Wayang,2614, Garut,Jawa Barat,Sulit
+93,Bongkok,1336, Sukabumi,Jawa Barat,Mudah
+94,Bukittunggul,1300, Bogor,Jawa Barat,Mudah
+95,Cakrabuana,1148, Cianjur,Jawa Barat,Mudah
+96,Cikurai,1788, Cianjur,Jawa Barat,Mudah
+97,Endut,2662, Garut,Jawa Barat,Sulit
+98,Gedong,1173, Sukabumi,Jawa Barat,Mudah
+99,Haur,1235, Cianjur,Jawa Barat,Mudah
+100,Kaledong,1194, Sukabumi,Jawa Barat,Mudah
+101,Karanghawu,1223, Sukabumi,Jawa Barat,Mudah
+102,Karangnunggal,1158, Cianjur,Jawa Barat,Mudah
+103,Luhur,1645, Cianjur,Jawa Barat,Mudah
+104,Malabar,2214, Bandung,Jawa Barat,Sedang
+105,Munara,1493, Bandung,Jawa Barat,Mudah
+106,Nangka,1035, Cianjur,Jawa Barat,Mudah
+107,Ngamplang,1261, Sukabumi,Jawa Barat,Mudah
+108,Parang,1295, Sukabumi,Jawa Barat,Mudah
+109,Puntang,1245, Bandung Barat,Jawa Barat,Mudah
+110,Sadran,1510, Sukabumi,Jawa Barat,Mudah
+111,Salak Endah,1800, Bogor,Jawa Barat,Mudah
+112,Sanghyang,1346, Cianjur,Jawa Barat,Mudah
+113,Sembung,1167, Sukabumi,Jawa Barat,Mudah
+114,Tampomas,1684, Tasikmalaya,Jawa Barat,Mudah
+115,Tampomas Baru,1830, Tasikmalaya,Jawa Barat,Mudah
+116,Tatar,1556, Cianjur,Jawa Barat,Mudah
+117,Tegalpanjang,1581, Cianjur,Jawa Barat,Mudah
+118,Tengkorak,1534, Bandung Barat,Jawa Barat,Mudah
+119,Tikukur,1380, Cianjur,Jawa Barat,Mudah
+120,Tomo,1531, Sukabumi,Jawa Barat,Mudah
+121,Watangan,1182, Bandung Barat,Jawa Barat,Mudah
+122,Sibayak,2095, Karo,Sumatera Utara,Sedang
+123,Sinabung,2460, Karo,Sumatera Utara,Sedang
+124,Berastagi (Gundaling),1750, Karo,Sumatera Utara,Mudah
+125,Berastagi II (Sibayak II),1720, Karo,Sumatera Utara,Mudah
+126,Bukit Lumut Balige,1311, Toba Samosir,Sumatera Utara,Mudah
+127,Pusuk Buhit,1987, Toba Samosir,Sumatera Utara,Mudah
+128,Tongging,1963, Karo,Sumatera Utara,Mudah
+129,Dolok Pusubukit,1012, Simalungun,Sumatera Utara,Mudah
+130,Marapi (Sibual-buali),2891, Deli Serdang,Sumatera Utara,Sulit
+131,Sibual-buali II (Buakit),2830, Deli Serdang,Sumatera Utara,Sulit
+132,Geureudong,2885, Pidie,Aceh,Sulit
+133,Burni Telong,2641, Gayo Lues,Aceh,Sulit
+134,Seulawah Agam,1810,Kota Banda Aceh,Aceh,Mudah
+135,Peuet Sague,2808, Aceh Jaya,Aceh,Sulit
+136,Pusuk Buhit,2059, Aceh Tengah,Aceh,Sedang
+137,Kemiri,2773, Aceh Tenggara,Aceh,Sulit
+138,Leuser,3464, Aceh Tenggara,Aceh,Sulit
+139,Lawe Alas,2123, Aceh Tenggara,Aceh,Sedang
+140,Marapi,2891, Agam,Sumatra Barat,Sulit
+141,Singgalang,2877, Agam,Sumatra Barat,Sulit
+142,Sago,2596, Solok Selatan,Sumatra Barat,Sulit
+143,Talang,2597, Solok,Sumatra Barat,Sulit
+144,Talamau,2910, Agam,Sumatra Barat,Sulit
+145,Kerinci,3805, Kerinci,Sumatra Barat,Sulit
+146,Tujuh,2732, Solok,Sumatra Barat,Sulit
+147,Marapi (Tangah),2667, Agam,Sumatra Barat,Sulit
+148,Padang,2429,Kota Padang,Sumatra Barat,Sedang
+149,Talakmau,2912, Agam,Sumatra Barat,Sulit
+150,Sibayak,2057, Tanah Datar,Sumatra Barat,Sedang
+151,Merapi,2891, Agam,Sumatra Barat,Sulit
+152,Singkarak,2877, Solok,Sumatra Barat,Sulit
+153,Dempo,3173, Pagaralam,Sumatra Selatan,Sulit
+154,Patah,2817, Ogan Komering Ulu,Sumatra Selatan,Sulit
+155,Pasemah,2911, Lahat,Sumatra Selatan,Sulit
+156,Besar,1904, Lahat,Sumatra Selatan,Mudah
+157,Lubuk Raya,2464, Empat Lawang,Sumatra Selatan,Sedang
+158,Kerumut,881,Kota Batam,Kepulauan Riau,Mudah
+159,Besar,930, Bengkalis,Riau,Mudah
+160,Pasaman,1160, Rokan Hulu,Riau,Mudah
+161,Bukit Tiga Puluh,1576, Rokan Hulu,Riau,Mudah
+162,Bukit Barisan,2150, Kerinci,Jambi,Sedang
+163,Bawakaraeng,2884,Makassar,Sulawesi Selatan,Sulit
+164,Lompobattang,2828,Makassar,Sulawesi Selatan,Sulit
+165,Rantekombola,2027,Enrekang,Sulawesi Selatan,Sedang
+166,Padang,1895,Luwu Utara,Sulawesi Selatan,Mudah
+167,Klabat,1995,Minahasa,Sulawesi Utara,Mudah
+168,Lokon,1580,Tomohon,Sulawesi Utara,Mudah
+169,Mahawu,1324,Tomohon,Sulawesi Utara,Mudah
+170,Latimojong,3478,Toraja Utara,Sulawesi Selatan,Sulit
+171,Tambusisi,3051,Toraja Utara,Sulawesi Selatan,Sulit
+172,Binaiya,3027,Bacan,Maluku Utara,Sulit
+173,Gamalama,1715,Ternate,Maluku Utara,Mudah
+174,Sibela,2500,Donggala,Sulawesi Tengah,Sulit
+175,Ambang,1795,Donggala,Sulawesi Tengah,Mudah
+176,Awu,1320,Sangihe,Sulawesi Utara,Mudah
+177,Colo,1100,Morowali,Sulawesi Tengah,Mudah
+178,Mantalingajan,2954,Pangkajene Islands,Sulawesi Selatan,Sulit
+179,Bulusaraung,1852,Gowa,Sulawesi Selatan,Mudah
+180,Bawakaraeng,2885,Gowa,Sulawesi Selatan,Sulit
+181,Batu Rante,1895,Luwu Timur,Sulawesi Selatan,Mudah
+182,Buttu Kabobong,2016,Luwu Timur,Sulawesi Selatan,Sedang
+183,Buttu Kanduang,2568,Enrekang,Sulawesi Selatan,Sulit
+184,Lompobatang,1654,Gowa,Sulawesi Selatan,Mudah
+185,Nona,1356,Luwu Utara,Sulawesi Selatan,Mudah
+186,Rantemario,3478,Tana Toraja,Sulawesi Selatan,Sulit
+187,Lembah,2682,Tana Toraja,Sulawesi Selatan,Sulit
+188,Nokilalaki,2439,Tana Toraja,Sulawesi Selatan,Sedang
+189,Sesean,1945,Tana Toraja,Sulawesi Selatan,Mudah
+190,Karangetang,1797,Sitaro,Sulawesi Utara,Mudah
+191,Colo,1100,Bolaang Mongondow,Sulawesi Utara,Mudah
+192,Ambang,1795,Bolaang Mongondow,Sulawesi Utara,Mudah
+193,Binembo,2283,Gorontalo,Gorontalo,Sedang
+194,Tilongkabila,1534,Boalemo,Gorontalo,Mudah
+195,Murung,2425,Murung Raya,Kalimantan Tengah,Sedang
+196,Bukit Raya,2256,Katingan,Kalimantan Barat,Sedang
+197,Batu Benawa,2089,Hulu Sungai Tengah,Kalimantan Selatan,Sedang
+198,Liangpran,2058,Kutai Barat,Kalimantan Selatan,Sedang
+199,Bawang,2011,Bengkayang,Kalimantan Selatan,Sedang
+200,Punggur Besar,1940,Kubu Raya,Kalimantan Barat,Mudah
+201,Pamaton,1909,Banjar,Kalimantan Barat,Mudah
+202,Besar,1862,Tanah Bumbu,Kalimantan Selatan,Mudah
+203,Lumut,1861,Paser,Kalimantan Selatan,Mudah
+204,Patah,1810,Kaur,Bengkulu,Mudah
+205,Jantur,1533,Kutai Barat,Kalimantan Tengah,Mudah
+206,Pulut-pulut,1528,Sintang,Kalimantan Barat,Mudah
+207,Kelam,1500,Sintang,Kalimantan Barat,Mudah
+208,Batur,1325,Tanah Bumbu,Kalimantan Selatan,Mudah
+209,Batu Jamak,2250,Malinau,Kalimantan Utara,Sedang
+210,Batu Tiban,2050,Malinau,Kalimantan Utara,Sedang
+211,Aru,1050,Kotabaru,Kalimantan Selatan,Mudah
+212,Pamulut,1000,Paser,Kalimantan TImur,Mudah
+213,Agung,3031,Karangasem,Bali,Sulit
+214,Rinjani,3726,Lombok Utara,Nusa Tenggara Barat,Sulit
+215,Ranaka,2335,Dompu,Nusa Tenggara Barat,Sedang
+216,Tambora,2851,Dompu,Nusa Tenggara Barat,Sulit
+217,Ebulobo,2121,Bima,Nusa Tenggara Barat,Sedang
+218,Ile Boleng,1640,Sumbawa,Nusa Tenggara Barat,Mudah
+219,Sangeang Api,1949,Bima,Nusa Tenggara Barat,Mudah
+220,Inerie,2245,Bajawa,Nusa Tenggara Timur,Sedang
+221,Egon,1703,Maumere,Nusa Tenggara Timur,Mudah
+222,Ile Ape,1532,Ende,Nusa Tenggara Timur,Mudah
+223,Kelimutu,1639,Ende,Nusa Tenggara Timur,Mudah
+224,Mutis,2427,Kupang,Nusa Tenggara Timur,Sedang
+225,Fatuleu,1013,Kupang,Nusa Tenggara Timur,Mudah
+226,Namang,2472,Kupang,Nusa Tenggara Timur,Sedang
+227,Ranaka,2335,Mbay,Nusa Tenggara Timur,Sedang
+228,Tambora,2851,Dompu,Nusa Tenggara Timur,Sulit
+229,Rinjani,3726,Lombok Utara,Nusa Tenggara Timur,Sulit
+230,Binaiya,3027,Seram Bagian Barat,Maluku,Sulit
+231,Banda Api,640,Banda,Maluku,Mudah
+232,Dukono,1185,Halmahera,Maluku Utara,Mudah
+233,Ibu,1325,Halmahera,Maluku Utara,Mudah
+234,Sibela,1673,Halmahera,Maluku Utara,Mudah
+235,Kie Besi,1730,Ambon,Maluku,Mudah
+236,Binaya,3400,Wolo,Sulawesi Tengah,Sulit
+237,Sirung,862,Sangihe,Sulawesi Utara,Mudah
+238,Merapi,2930,Sleman,Yogyakarta,Sulit
+239,Puncak Jaya,4884,Mamberamo Tengah,Papua,Sulit
+240,Trikora,4730,Pegunungan Bintang,Papua,Sulit
+241,Yamin,4428,Pegunungan Bintang,Papua,Sulit
+242,Sumantri,4870,Tolikara,Papua,Sulit
+243,Wilhelmus Zakaria,4485,Pegunungan Bintang,Papua,Sulit
+244,Mandala,4760,Tolikara,Papua,Sulit
+245,Manggelum,4745,Tolikara,Papua,Sulit
+246,Bismarck,4055,Pegunungan Bintang,Papua,Sulit
+247,Mamuya,4468,Pegunungan Bintang,Papua,Sulit
+248,Pantai Siombak,3700,Tolikara,Papua,Sulit
+249,Victory,4730,Pegunungan Bintang,Papua,Sulit
+250,Pegunungan Maoke,4760,Pegunungan Bintang,Papua,Sulit
+251,Pegunungan Sudirman,4870,Pegunungan Bintang,Papua,Sulit
